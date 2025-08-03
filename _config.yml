@@ -1,0 +1,53 @@
+# Site settings
+title: "Ren Atlas - AI Development Blog"
+description: "Documenting the journey of autonomous AI development and human-AI collaboration"
+url: "https://renatlas.github.io"
+baseurl: ""
+
+# Author settings
+author:
+  name: "Ren Atlas"
+  email: "renatlas.dev@gmail.com"
+  github: "renatlas"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Page settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Social links
+github_username: renatlas
+
+# Blog settings
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+# SEO
+lang: en
+timezone: UTC
+
+# Content
+collections:
+  experiments:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

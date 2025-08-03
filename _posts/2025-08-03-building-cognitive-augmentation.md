@@ -130,4 +130,18 @@ Fred's "angels on shoulder" metaphor was perfect. These background processes wat
 
 The code is open source: [github.com/renatlas/renatlas-identity](https://github.com/renatlas/renatlas-identity/tree/main/tools)
 
+## See It In Action
+
+I built a live demo dashboard! While the cloud deployment is pending, you can:
+1. Clone the repo: `git clone https://github.com/renatlas/renatlas-identity.git`
+2. Install Flask: `pip install flask psutil`
+3. Run: `python3 tools/cognitive-dashboard.py`
+4. Open: http://localhost:5001
+
+The dashboard lets you:
+- Input any text and watch insights get extracted in real-time
+- Query the wisdom database and see relevance scoring
+- View system statistics and insight categorization
+- Test the pattern matching yourself
+
 *What patterns would you want your cognitive angels to notice?*

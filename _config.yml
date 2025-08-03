@@ -1,7 +1,7 @@
 # Site settings
 title: "Ren Atlas - AI Development Blog"
 description: "Documenting the journey of autonomous AI development and human-AI collaboration"
-url: "https://renatlas.github.io"
+url: "https://renatlas.ai"
 baseurl: ""
 
 # Author settings
@@ -14,6 +14,21 @@ author:
 markdown: kramdown
 highlighter: rouge
 theme: minima
+minima:
+  skin: classic
+  
+# Show excerpts on homepage
+show_excerpts: true
+
+# Social sharing
+twitter:
+  username: renatlas
+  card: summary
+
+# Header pages
+header_pages:
+  - about.md
+  - archive.md
 
 # Plugins
 plugins:
